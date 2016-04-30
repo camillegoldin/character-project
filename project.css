@@ -1,0 +1,34 @@
+body {
+	font-family: 'Reenie Beanie', cursive;
+}
+.title {
+    display: block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Reenie Beanie', cursive;
+    margin-top: 70px;
+}
+
+.headline h1 {
+    font-size: 100px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+.headline h2 {
+    font-size: 27px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.foot {
+	margin-left: 20px;
+}
+
+map area:hover .lisa {
+outline-color: red;
+}

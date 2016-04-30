@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery.colorbox.js"></script>
+    <script type="text/javascript" src="http://davidlynch.org/projects/maphilight/jquery.maphilight.js"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <title>Rear Window</title>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Give+You+Glory|Reenie+Beanie' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="colorbox.css">
+    <link href="project.css" rel="stylesheet">
+    <script>
+        $(document).ready(function() { 
+            $(".group1").colorbox({rel:'group1', transition: "fade",width:"30%", height:"30%"});
+            $(".inline").colorbox({rel:'inline'});
+            $(".outside").colorbox()
+            $(".lisa").colorbox({href:"div#lisa_content", inline:true, width: "540px", height:"670px"})
+            $(".mathilda").colorbox({href:"div#mathilda_content", inline:true, width: "540px", height: "670px"})
+            $(".calvin").colorbox({href:"div#calvin_content", inline:true, width: "540px", height:"670px"})
+            $(".hiro").colorbox({href:"div#hiro_content", inline:true, width: "540px", height:"670px"})
+            $(".anna").colorbox({href:"div#anna_content", inline:true, width: "540px", height:"670px"})
+            $(".joanna").colorbox({href:"div#joanna_content", inline:true, width: "540px", height:"670px"})
+            $(".emma").colorbox({href:"div#emma_content", inline:true, width: "540px", height:"670px"})
+            $(".sasha").colorbox({href:"div#sasha_content", inline:true, width: "540px", height:"670px"})
+        });
+    </script>
+</head>
+<body>
+<div class="title">
+     <h1>Those Who Live On East 11th Street</h1>
+     <h2>(It's a motley bunch)</h2>
+
+</div>
+
+
+    <!-- Page Content -->
+
+   <img class="center-block" "img-responsive" id="ImageMap1" src="illustration3.jpg" alt="mypic" usemap="#mypic" width="1000px"> 
+<map name="mypic" class="mapHiLight" id="mainimage">
+	<area class="lisa" id="Lisa" title="Lisa" shape="rect" coords="577,26,689,164"/>
+	<area class="mathilda" id="Mathilda" title="Mathilda" shape="rect" coords="628,218,739,352" />
+	<area class="calvin" id="Calvin" title="Calvin" shape="rect" coords="452,324,561,455" />
+	<area class="hiro" id="Hiro" title="Hiro" shape="rect" coords="708,411,818,542" />
+	<area class="anna" id="Anna" title="Anna" shape="rect" coords="112,274,224,409" />
+	<area class="joanna" id="Joanna" title="Joanna" shape="rect" coords="252,401,365,543"/>
+	<area class="emma" id="Emma" title="Emma" shape="rect" coords="245,163,353,297" />
+	<area class="sasha" id="Sasha" title="Sasha" shape="rect" coords="820,167,932,301" />
+	<area shape="rect" coords="562,407,564,409" alt="Image Map" style="outline:none;" title="Image Map"/>
+</map>
+
+
+
+<div style='display:none'>
+    <div id="lisa_content">
+   <img src="lisatest.jpg"</img>  
+    </div>
+
+    <div id="mathilda_content">
+   <img src="mathildatest.jpg"</img>     
+    </div>
+
+    <div id="calvin_content">
+   <img src="calvintest.jpg"></img>    
+    </div>
+
+    <div id="hiro_content">
+   <img src="hirotest.jpg"></img>    
+    </div>
+
+     <div id="anna_content">
+   <img src="annatest.jpg"></img>    
+    </div>
+
+    <div id="joanna_content">
+   <img src="joannatest.jpg"></img>    
+    </div>
+
+    <div id="emma_content">
+   <img src="emmatest.jpg"></img>    
+    </div>
+
+    <div id="sasha_content">
+   <img src="sashatest.jpg"</img>    
+    </div>
+</div>
+
+
+
+<footer>
+  <hr class="homepagesection-divider">
+  <div class = "foot">
+    <p><small>Copyright &copy; Camille Goldin 2016</small></p>
+    <address>
+      <strong>Camille Goldin</strong><br>
+      <p>Located in Brooklyn, NY</p>
+      <p><small>Main image Copyright &copy; James Gulliver Hancock</small></p>
+      <a href="mailto:camille.goldin@gmail.com" target="_top">Email me</a></p><br>
+    </address>   
+  </div>
+</footer>
+
+    <!-- ADDITIONAL JS HERE 
+    you don't need .group1 or .inline; just make a call back of the form
+$(".CHARACTER_NAME").colorbox(href=div#TAG_FOR_DIV_WITH_STORY", inline:true})
+and then use class="CHARACTER_NAME"-->
+<!-- CUSTOM JS (SHOULD ALWAYS BE LAST) -->
+<!-- <script src="js/app.js"></script> -->
+
+</body>
+</html>
+
+
+
